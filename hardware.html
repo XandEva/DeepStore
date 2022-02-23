@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html" class="logo">Deep Store</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="#">Hardwares</a></li>
+                <li><a href="./perifericos.html">Periféricos</a></li>
+                <li><a href="./completos.html">Completos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- <div class="carrossel"> USAR PARA PRODUTOS PQ O TAMANHO É DE 500PX
+            <div class="container" id="img">
+                <img src="./imagens/imagem1.png" alt="">
+                <img src="./imagens/imagem2.jpg" alt="">
+            </div>
+        </div> -->
+
+        <div id="slider">
+            <img class="selected" src="./imagens/periferico1.jpeg" alt="Image1">
+            <img src="./imagens/perifericos2.jpeg" alt="Image2">
+            <img src="./imagens/perifericos3.jpeg" alt="Image3">
+            <img src="./imagens/perifericos4.jpeg" alt="Image4">
+        </div>
+
+        <div class="gallery">
+            <div class="content">
+                <img src="./imagens/hardware1.jpg" alt="" id="img-card">
+                <p>PLACA DE VIDEO AFOX GEFORCE GT610, 2GB, DDR3, 64-BIT, AF610-2048D3L5</p>
+                <h6>R$ 299,90</h6>
+                <ul class="ul-card">
+                    <li class="li-card">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </li>
+                </ul>
+                <button class="buy1">Compre Já!</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./imagens/wardware2.jpg" alt="" id="img-card">
+                <p>PLACA DE VIDEO PNY QUADRO RTX A2000, 6GB, GDDR6, 192-BIT, VCNRTXA2000-PB-NAC</p>
+                <h6>R$ 5.979,90</h6>
+                <ul class="ul-card">
+                    <li class="li-card">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </li>
+                </ul>
+                <button class="buy2">Compre Já!</button>
+            </div>
+
+
+
+            <div class="content">
+                <img src="./imagens/wardware3.jpg" alt="" id="img-card">
+                <p>TECLADO MECANICO PICHAU VIRGO RGB, ANSI, SWITCH GATERON VERMELHO, PRETO, PGK-VRG-BL01</p>
+                <h6>R$ 429,90</h6>
+                <ul class="ul-card">
+                    <li class="li-card">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </li>
+                </ul>
+                <button class="buy3">Compre Já!</button>
+            </div>
+
+            <div class="content">
+                <img src="./imagens/hardware4.jpg" alt="" id="img-card">
+                <p>PLACA DE VIDEO GALAX GEFORCE RTX 3050 EX 1-CLICK OC, 8GB, GDDR6, 128-BIT, 35NSL8MD6YEX</p>
+                <h6>R$ 3.279,00</h6>
+                <ul class="ul-card">
+                    <li class="li-card">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star"></i>
+                    </li>
+                </ul>
+                <button class="buy4">Compre Já!</button>
+            </div>
+        </div>
+
+    </main>
+</body>
+<script src="./script.js"></script>
+<script src="./carrossel.js"></script>
+<script src="./slider.js"></script>
+</html>
