@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html" class="logo">Deep Store</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./hardware.html">Hardwares</a></li>
+                <li><a href="./perifericos.html">Periféricos</a></li>
+                <li><a href="#">Completos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- <div class="carrossel"> USAR PARA PRODUTOS PQ O TAMANHO É DE 500PX
+            <div class="container" id="img">
+                <img src="./imagens/imagem1.png" alt="">
+                <img src="./imagens/imagem2.jpg" alt="">
+            </div>
+        </div> -->
+
+        <div id="slider">
+            <img class="selected" src="./imagens/periferico1.jpeg" alt="Image1">
+            <img src="./imagens/perifericos2.jpeg" alt="Image2">
+            <img src="./imagens/perifericos3.jpeg" alt="Image3">
+            <img src="./imagens/perifericos4.jpeg" alt="Image4">
+        </div>
+
+        <div class="gallery">
+            <div class="content">
+                <img src="./imagens/computador1.jpg" alt="" id="img-card">
+                <p>COMPUTADOR MANCER GAMER KVASIR III, AMD RYZEN 7 5700G, 16GB DDR4, SSD M.2 480GB</p>
+                <h6>R$ 4.491,67</h6>
+                <ul class="ul-card">
+                    <li class="li-card">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </li>
+                </ul>
+                <button class="buy1">Compre Já!</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./imagens/computador2.jpg" alt="" id="img-card">
+                <p>COMPUTADOR PICHAU GAMER HYDRA II, INTEL I7-12700KF, GEFORCE RTX 3070 8GB, 16GB DDR5, HD 1TB + SSD M.2 480GBz</p>
+                <h6>R$ 15.999,94</h6>
+                <ul class="ul-card">
+                    <li class="li-card">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </li>
+                </ul>
+                <button class="buy2">Compre Já!</button>
+            </div>
+
+
+
+            <div class="content">
+                <img src="./imagens/computador3.jpg" alt="" id="img-card">
+                <p>COMPUTADOR PICHAU GAMER, INTEL I3-10100F, GEFORCE GTX 1660 6GB, 8GB DDR4, SSD 240GB</p>
+                <h6>R$ 4.799,99</h6>
+                <ul class="ul-card">
+                    <li class="li-card">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </li>
+                </ul>
+                <button class="buy3">Compre Já!</button>
+            </div>
+
+            <div class="content">
+                <img src="./imagens/computador4.jpg" alt="" id="img-card">
+                <p>COMPUTADOR PICHAU GAMER BELIAL, AMD RYZEN 3 4350G, GEFORCE RTX 2060 6GB, 8GB DDR4, SSD M.2 240GB</p>
+                <h6>R$ 6.496,45</h6>
+                <ul class="ul-card">
+                    <li class="li-card">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star"></i>
+                    </li>
+                </ul>
+                <button class="buy4">Compre Já!</button>
+            </div>
+        </div>
+
+    </main>
+</body>
+<script src="./script.js"></script>
+<script src="./carrossel.js"></script>
+<script src="./slider.js"></script>
+</html>
